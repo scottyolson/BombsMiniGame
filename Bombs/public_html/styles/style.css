@@ -1,0 +1,143 @@
+/* 
+    Created on : Feb 17, 2014, 9:19:47 PM
+    Author     : Scott Olson
+*/
+
+body
+{
+	font-family: Impact, fantasy;
+	color: rgba(255, 255, 255, 1);
+	
+	background-image:url("../images/Background.png");
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+h2
+{
+	text-align: center;
+}
+
+p
+{
+	color: #000000;
+	text-align: center;
+}
+
+#game
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+}
+
+/*#mainCanvas{
+    background:url("images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline;
+    position: relative;
+}*/
+
+#game .screen
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 10;
+}
+
+#game .screen.active
+{
+	display: block;
+}
+
+#main-menu
+{
+	padding-top: 2em;
+	cursor: auto;
+	font-size: 0.75em;
+}
+
+ul.menu
+{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul.menu li
+{
+	margin: 2em 0;
+}
+
+ul.menu li button
+{
+	font-family: Impact, fantasy;
+	font-size: 0.6em;
+	color: #FFFFFF;
+	width: 10em;
+	height: 2em;
+	background: rgba(0, 0, 255, 0.25);
+	box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
+	cursor: crosshair;
+}
+
+ul.menu li button:hover
+{
+	background: #2E2EFE;
+}
+
+ul.menu li button:active
+{
+	color: #FFCEF6;
+	background: rgb(0, 0, 0);
+}
+
+#game div h1
+{
+	font-size: 1em;
+	text-align: center;
+}
+
+#help li
+{
+	font-size: 0.5em;
+}
+
+#high-scores ol
+{
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#game div p
+{
+	font-size: 0.5em;
+}
+
+#about p
+{
+	text-align: center;
+}
+
+#credits
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#credits p
+{
+	text-align: center;
+	color: #FFFFFF;
+}
